@@ -1,0 +1,41 @@
+{
+  "name": "@reagin/template-for-vite-react",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.18.3+sha512.bbd16e6d7286fd7e01f6b3c0b3c932cda2965c06a908328f74663f10a9aea51f1129eea615134bf992831b009eabe167ecb7008b597f40ff9bc75946aadfb08d",
+  "description": "Template repository for command: `pnpm create vite --template=react-ts`",
+  "scripts": {
+    "dev": "vite",
+    "clean": "rimraf dist",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "clsx": "^2.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.4.1",
+    "@eslint-react/eslint-plugin": "^1.53.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-better-tailwindcss": "^3.7.10",
+    "eslint-plugin-format": "^1.0.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "rimraf": "^6.1.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.2.1",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}

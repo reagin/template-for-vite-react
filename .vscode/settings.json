@@ -1,0 +1,81 @@
+{
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.rules.customizations": [
+    { "fixable": true, "rule": "*-dangle", "severity": "off" },
+    { "fixable": true, "rule": "*-indent", "severity": "off" },
+    { "fixable": true, "rule": "*-newline", "severity": "off" },
+    { "fixable": true, "rule": "*-order", "severity": "off" },
+    { "fixable": true, "rule": "*-spaces", "severity": "off" },
+    { "fixable": true, "rule": "*-spacing", "severity": "off" },
+    { "fixable": true, "rule": "*quotes", "severity": "off" },
+    { "fixable": true, "rule": "*semi", "severity": "off" },
+    { "fixable": true, "rule": "format/*", "severity": "off" },
+    { "fixable": true, "rule": "style/*", "severity": "off" }
+  ],
+  "eslint.validate": [
+    "vue",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "files.exclude": {
+    "**/.devenv/**": true,
+    "**/.direnv/**": true,
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true
+  },
+  "files.watcherExclude": {
+    "**/.devenv/**": true,
+    "**/.direnv/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.suggest.autoImports": false,
+  "path-intellisense.absolutePathToWorkspace": true,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "path-intellisense.showHiddenFiles": true,
+  "prettier.enable": true,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.jsxSingleQuote": true,
+  "prettier.quoteProps": "consistent",
+  "prettier.tabWidth": 2,
+  "search.exclude": {
+    "**/.devenv/**": true,
+    "**/.direnv/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/dist/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.suggest.autoImports": false,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
